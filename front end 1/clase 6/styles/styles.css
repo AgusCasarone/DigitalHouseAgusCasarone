@@ -1,3 +1,49 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+/* BARRAS SUPERIORES */
+
+h1 {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+
+color: #F3F3F3;
+}
+
+#barra-superior {
+    width: 1024px;
+height: 20px;
+background: #222222;
+}
+
+.huellita-blanca {
+    color: green;
+    background-color:blue;
+}
+
+/* FOOTER */
+
+.logo-footer-container {
+    
+    width: 66px;
+    height: 66px;
+background: #786960;
+border: 10px;
+border-radius: 50px;
+background: #8A8787;
+}
+
+.logo-footer-img {
+    align-items: center;
+    color: #fff;
+    Height: 45px;
+    width: 39.55px;
 }
