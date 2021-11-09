@@ -1,0 +1,163 @@
+* {
+    font-family: "Times New Roman";
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.foto-header {
+    background-color: #e6e6e6;
+    height: 188.19px;
+    width: 1440px;
+}
+
+#foto-de-perfil {
+    padding-top: 0px;
+    top: 60px;
+    width: 100px;
+    height: 146.37px;
+    top: 20.91px;
+    position: absolute;
+    justify-content: center;
+}
+
+.nombre-header {
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 188px;
+    background: #c4c4c4;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    vertical-align: center;
+}
+
+h1 {
+    width: 1013px;
+    height: 29.87px;
+    left: 213px;
+    top: 202.13px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 84.69%;
+  /* identical to box height, or 30px */
+    font-feature-settings: "'cpsp' on";
+    color: #005677;
+    margin: auto;
+}
+
+/* ESPACIADO */
+
+.espaciado{
+    height: 125px;
+}
+
+/* DATOS PERSONALES */
+
+h2{
+    width: 1440px;
+    top: 381px;
+    background: #C4C4C4;
+    width: 1440px;
+    height: 17px;
+    left: 12.45px;
+    top: 387px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+    /* identical to box height, or 17px */
+    font-feature-settings: "'cpsp' on";
+    color: #005677;
+    display: block;
+    padding: 10px;
+}
+
+.datos-personales {
+    padding-left: 40px;
+}
+
+/* CAJAS DE DATOS */
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.contenido #contenido-tiempo #contenido-lista{
+    /* display: inline; */
+    padding-left: 20px;
+    position: top;
+}
+
+.contenido #contenido-tiempo{
+    margin-top: 0;
+}
+
+.contenido li{
+    list-style-type: none;
+    /* display: inline; */
+}
+
+#contenido-tiempo{
+    /* display: inline; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 84.69%;
+    padding-left: 20px;
+    margin-top: 0;
+    /* or 13px */
+}
+
+#contenido-lista{
+    font-size: 15px;
+    display: inline-block;
+    align-items: left;
+}
+
+/* FOOTER */
+
+footer{
+    width: 1440px;
+    height: 37px;
+    left: 0px;
+    top: 987px;
+    background: #005677;    
+    position: absolute;
+    justify-content: center;
+}
+
+.footer-contactos {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contactos li{
+    list-style-type: none;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 84.69%;
+/* identical to box height, or 17px */
+    color: #FFFFFF;
+    padding: 5px;    
+    justify-content: center;
+}
+
+#contact{
+    color: #FFFFFF;
+    padding: 15px;
+    text-decoration: none;
+}
