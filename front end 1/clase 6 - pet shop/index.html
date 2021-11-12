@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Pet Shop</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <!-- Barras superiores -->
+        <div class="barra-superior">
+          <!-- Barra negra -->
+          <div class="titulo">
+            <h1>Grandes ofertas en comederos</h1>
+          </div>
+          <div class="menu-regional-container">
+          <ul class="menu-regional">
+            <li>
+              Español
+              <i class="fas fa-chevron-down expand-button"></i>
+            </li>
+            <li>
+              $ARG
+              <i class="fas fa-chevron-down expand-button"></i>
+            </li>
+          </ul>
+        </div>
+        </div>
+        <div class="barra-de-menu-principal">
+          <!-- Barra naranja -->
+          <div class="menu-principal-container">
+            <div class="logo-header-container">
+              <img src="/img/Logo.png" alt="Front Cat&Dog" class="logo-header">
+            </div>
+            <div class="menu-principal-lista-container">
+              <nav class="menu-principal">
+                <ul class="menu-principal-lista">
+                  <li>
+                    <i class="fas fa-paw" 
+                    alt="huellita-blanca"
+                    class="huellita-blanca"></i>Categorías
+                  </li>
+                  <li>
+                    <i class="fas fa-paw" 
+                    alt="huellita-blanca"
+                    class="huellita-blanca"></i>Pets
+                  </li>
+                  <li>
+                    <i class="fas fa-paw" 
+                    alt="huellita-blanca"
+                    class="huellita-blanca"></i>Nosotros
+                  </li>
+                  <li><i class="fas fa-paw" 
+                    alt="huellita-blanca"
+                    class="huellita-blanca"></i>Contactanos
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="main-content-banner">
+        <h3>¡Es un placer tenerte aquí!</h3>
+        <p>¡Comederos en descuento!</p>
+        <a href="/" class="boton-comederos"><button>COMEDEROS</button></a>
+      </section>
+      <section class="productos">
+        <i class="fas fa-paw" 
+        alt="patita amarilla"
+        class="patita-amarilla"></i>
+        <h2>Productos Destacados</h2>
+        <div class="productos-destacados-container">
+          <ul class="productos-destacados">
+            <li>
+              <a href="/" class="boton-productos-destacados"
+                ><button>Comederos</button></a
+              >
+            </li>
+            <li>
+              <img src="/img/-.png" alt="guión" />
+            </li>
+            <li>
+              <a href="/" class="boton-productos-destacados"
+                ><button>Accesorios</button></a
+              >
+            </li>
+            <li>
+              <img src="/img/-.png" alt="guión" />
+            </li>
+            <li>
+              <a href="/" class="boton-productos-destacados"
+                ><button>Comida</button></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="cards-section">
+          <div class="card">
+            <img src="/img/churrasquito.png" alt="churrasquito" class="card-imagen"/>
+            <p class="card-title">Juguete Churrasquito</p>
+            <p class="card-price">$150</p>
+          </div>
+          <div class="card">
+            <img src="/img/comedero.png" alt="comedero" class="card-imagen"/>
+            <p class="card-title">Comedero para perro</p>
+            <p class="card-price">$250</p>
+          </div>
+          <div class="card">
+            <img src="/img/Huesito.png" alt="churrasquito" class="card-imagen"/>
+            <p class="card-title">Juguete Huesito</p>
+            <p class="card-price">$650</p>
+          </div>
+        </div>
+        <div class="formulario-de-contacto">
+          <h4>Contáctanos</h4>
+          <form action="/" method="dialog" class="form-contacto">
+            <input type="text" class="formulario-linea" id="nombre-contacto" title="Tu nombre" placeholder="Nombre y Apellido" required>
+            <input type="email" class="formulario-linea" id="email-contacto" title="Tu email" placeholder="Ingresá tu correo electrónico" required>
+            <input type="tel" class="formulario-linea" id="teléfono-contacto" title="Tu teléfono" placeholder="Teléfono" required>
+            <input type="reset" class="formulario-boton" id="reset">Resetear</input> 
+            <input type="submit" class="formulario-boton" id="enviar">Enviar</input> 
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-parte-amarilla">
+        <div class="logo-suscribite">
+          <img src="/img/enviar-correo 1.png" alt="enviar correo" class="correo">
+          <h5>Suscríbete para más novedades</h5>
+        </div>
+        <div class="form-footer">
+          <form action="/" method="dialog" class="form-suscribite">
+            <input type="email" class="formulario-boton" id="email-suscribite" title="Tu email" placeholder="Ingresá tu correo electrónico" required>
+            <input type="submit" class="formulario-boton" id="suscribirme">Suscribirme</input> 
+          </form>
+        </div>
+      </div>
+      <div class="footer-parte-marron">
+        <div class="logo-footer-container">
+          <img src="/img/Logo.png" alt="Logo" class="logo-footer">
+        </div>
+        <div class="footer-parte-marron">
+          <div class="boton-footer-container">
+            <ul>
+              <li>
+                <button class="boton-footer">
+                <a href="/" class="link-boton-footer">
+                  <div class="logo-footer-container">
+                    <i class="fas fa-map-marker-alt logo-footer-img"></i>
+                  </div>
+                  <h5>Localidad</h5>
+                  <p>Calle - provincia</p>
+                </a>
+                </button>
+              </li>
+              <li>
+                <button class="boton-footer">                  
+                <a href="tel:/" class="link-boton-footer">
+                  <div class="logo-footer-container">
+                    <i class="fas fa-phone logo-footer-img"></i>
+                  </div>
+                  <h5>Teléfono</h5>
+                  <p>Número de teléfono</p>
+                </a>
+                </button>
+              </li>
+              <li>
+                <button class="boton-footer">
+                <a href="mailto:/" class="link-boton-footer">
+                  <div class="logo-footer-container">
+                    <i class="far fa-envelope logo-footer-img"></i>
+                  </div>
+                  <h5>Correo Electrónico</h5>
+                  <p>Dirección de correo</p>
+                </a>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-parte-negra">
+        <p>Todos los derechos reservados Front End</p>
+      </div>
+    </footer>
+  </body>
+</html>

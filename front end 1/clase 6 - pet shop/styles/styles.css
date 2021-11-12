@@ -1,0 +1,107 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------- */
+/* BARRAS SUPERIORES */
+
+
+/* barra negra */
+
+.barra-superior {
+    background: #222222;
+    height: 20px;    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: #F3F3F3;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+/* identical to box height */
+}
+
+.menu-regional {
+    color: #F3F3F3;
+    width: 100px;
+    display: flex;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;    
+    justify-content: space-around;
+    align-items: center;
+    line-height: 12px;
+    list-style-type: none;
+/* identical to box height */
+}
+
+.menu-principal-container{
+    display: flex;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-principal-lista{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.expand-button {
+    color: #F3F3F3;
+    font-size: 5px;
+}
+
+/* barra naranja */
+
+.logo-header{
+    height: max-content;
+}
+
+.barra-de-menu-principal {
+    background-color: #F0A83E;
+    height: 62px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+.huellita-blanca {
+    color: green;
+    background-color:blue;
+}
+
+/* ------ */
+/* FOOTER */
+
+.logo-footer-container {    
+    width: 66px;
+    height: 66px;
+    background: #786960;
+    border: 10px;
+    border-radius: 50px;
+    background: #8A8787;
+    display: flex;
+}
+
+.logo-footer-img {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    width: max-content;
+}
