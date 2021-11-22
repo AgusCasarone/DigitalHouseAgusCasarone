@@ -34,7 +34,7 @@ h1 {
     display: flex;
     font-size: 10px;
     font-style: normal;
-    font-weight: normal;    
+    font-weight: normal;
     justify-content: space-around;
     align-items: center;
     line-height: 12px;
@@ -47,7 +47,7 @@ h1 {
     font-size: 13px;
     font-style: normal;
     font-weight: normal;    
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -73,7 +73,7 @@ h1 {
     background-color: #F0A83E;
     height: 62px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 13px;
     line-height: 15px;
     color: #FFFFFF;
@@ -88,20 +88,42 @@ h1 {
 /* ------ */
 /* FOOTER */
 
-.logo-footer-container {    
-    width: 66px;
-    height: 66px;
-    background: #786960;
-    border: 10px;
-    border-radius: 50px;
-    background: #8A8787;
+.footer-parte-marron {
+    background-color: #3C2313;
     display: flex;
+    flex-direction: row-reverse;    
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 74px;
+    padding-left: 74px;
+}
+
+.list-footer-container {
+    background: #8A8787;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
 }
 
 .logo-footer-img {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     color: #fff;
-    width: max-content;
+    width: 66px;
+    height: 66px;
+    background: #8A8787;
+    border: 10px #786960;
+    border-radius:50%;
+}
+
+.boton-footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boton-footer {
+    width: 179px;
+    height: 66px;
 }
