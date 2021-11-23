@@ -34,10 +34,12 @@
     color: #000000;
     padding: 28px;
     padding-bottom: 26px;
+    margin-bottom: 0;
 }
 
 .header-nav-bar-container {
     width:100vw;
+    margin-top: 0;
     height: 40px;
     background: #001D2D;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -50,6 +52,7 @@
     display: flex;
     flex-direction: row; 
     justify-content: flex-end;   
+    align-items: center;
 }
 
 .navbar-item {
@@ -60,7 +63,7 @@
     color: #FFFFFF;
     list-style: none;
     text-decoration: none;
-    display: flex;
+    margin: auto;
 }
 
 /* MAIN */
@@ -90,7 +93,6 @@
 }
 
 .card-heart {
-    Height: 26.25px;
     width: max-content;
     display: flex;
     padding-top: 1rem;
@@ -104,6 +106,7 @@
     top: 293px;
     background-image: url(/img/background-ciudad.png);
     border-radius: 16px 16px 0px 0px;
+    z-index: 1;
 }
 
 .card-header-harley {
@@ -113,6 +116,7 @@
     top: 293px;
     background-image: url(/img/background-colorido.png);
     border-radius: 16px 16px 0px 0px;
+    z-index: 1;
 }
 
 .card-main {
@@ -133,11 +137,12 @@
     margin: 89px;
     margin-top: -20%;
     margin-bottom: 0;
+    z-index: 2;
 }
 
 .card-title {
-    justify-content: center;
-    margin: 0px 64px;
+    display: flex;
+    margin: auto;
     width: max-content;
 }
 
@@ -177,6 +182,9 @@ footer {
     top: 972px;
     background: #00669F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-text {
@@ -185,6 +193,8 @@ footer {
 /* identical to box height */
     width: max-content;
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: #FFF9F9;
     padding: 16px;
