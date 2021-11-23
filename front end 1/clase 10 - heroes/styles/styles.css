@@ -1,0 +1,191 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header-barra-superior {
+    width: 100vw;
+    background-color: #1CD1B0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+/* identical to box height */
+    color: #000000;
+    padding: 10px;
+}
+
+.header-barra-inferior {
+    width: 100vw;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 47px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 47px;
+/* identical to box height */
+    color: #000000;
+    padding: 28px;
+    padding-bottom: 26px;
+}
+
+.header-nav-bar-container {
+    width:100vw;
+    height: 40px;
+    background: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;    
+    justify-content: flex-end;
+}
+
+.navbar-list {
+    width: 100vw;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;   
+}
+
+.navbar-item {
+    width: max-content;
+    font-size: 16px;
+    line-height: 19px;
+/* identical to box height */
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+/* MAIN */
+
+.main-cards {
+    width: 960px;
+    height: 530px;
+    left: 32px;
+    top: 292px;
+}
+
+/* CARDS */
+
+.main-cards-container {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container {
+    height: 529px;
+    top: 292px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 2rem;
+}
+
+.card-heart {
+    Height: 26.25px;
+    width: max-content;
+    display: flex;
+    padding-top: 1rem;
+    margin-left: 21px;
+}
+
+.card-header-batman {
+    width: 300px;
+    height: 193px;
+    left: 32px;
+    top: 293px;
+    background-image: url(/img/background-ciudad.png);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card-header-harley {
+    width: 300px;
+    height: 193px;
+    left: 32px;
+    top: 293px;
+    background-image: url(/img/background-colorido.png);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card-main {
+    width: 300px;
+    height: 336px;
+    margin: 0 auto;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+}
+
+
+.card-profile-picture {
+    width: 120px;
+    height: 118px;
+    position: relative;
+    border-radius: 100%;
+    justify-content: center;
+    margin: 89px;
+    margin-top: -20%;
+    margin-bottom: 0;
+}
+
+.card-title {
+    justify-content: center;
+    margin: 0px 64px;
+    width: max-content;
+}
+
+.card-text {
+    width: 267px;
+    height: 113px;
+    left: 48px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    margin: 10px 17px;
+}
+
+.card-action {
+    background: #00669F;
+    font-size: 15px;
+    line-height: 48.52px;
+/* identical to box height */
+    text-align: center;
+    color: #F3F3F3;
+    padding: 15px 36px;
+    text-decoration: none;
+    margin-top: 0;
+    margin: auto 85px 18px 85px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 19px;
+/* identical to box height */
+    width: max-content;
+    display: flex;
+    text-align: center;
+    color: #FFF9F9;
+    padding: 16px;
+}
